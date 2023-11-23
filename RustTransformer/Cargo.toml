@@ -1,0 +1,24 @@
+[package]
+name = "rusttransformer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "rusttransformer"
+path = "src/lib.rs"
+
+[[bin]]
+name = "rusttransformer"
+path = "src/main.rs"
+
+[dependencies]
+rand_distr = "0.4.3"
+rand = "0.8.5"
+csv = "1.2.1"
+serde = {version = "1.0.163", features = ["derive"]}
+serde_json = "1.0"
+log = "0.4"
+chrono = "0.4"
+ndarray = {version = "0.15.0", features = ["serde"]}

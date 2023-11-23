@@ -1,0 +1,60 @@
+[12:27:48] INFO: num_words: 10
+[12:27:48] INFO: dimensionality: 64
+[12:27:48] INFO: num_encoders: 1
+[12:27:48] INFO: num_heads: 1
+[12:27:48] INFO: hidden_layer_size: 100
+[12:27:48] INFO: num_messages: 66000
+[12:27:48] INFO: Loaded 13810 word embeddings successfully.
+[12:33:36] INFO: Loaded 65052 messages successfully.
+[12:33:36] INFO: Author counts: [32516, 32536]
+Creating dense block with layer sizes: [640, 640], shape=[2], strides=[1], layout=CFcf (0xf), const ndim=1
+Creating dense block with layer sizes: [640, 100, 640], shape=[3], strides=[1], layout=CFcf (0xf), const ndim=1
+Creating dense block with layer sizes: [640, 2], shape=[2], strides=[1], layout=CFcf (0xf), const ndim=1
+[12:34:32] INFO: 1700742468_chtbt_model_10_64_1_1_100.json TRAIN LOSS: 0.6065991
+[12:34:32] INFO: 1700742468_chtbt_model_10_64_1_1_100.json  TRAIN ACC: 0.7054
+[12:35:22] INFO: 1700742468_chtbt_model_10_64_1_1_100.json TRAIN LOSS: 0.49803004
+[12:35:22] INFO: 1700742468_chtbt_model_10_64_1_1_100.json  TRAIN ACC: 0.7604
+[12:36:08] INFO: 1700742468_chtbt_model_10_64_1_1_100.json TRAIN LOSS: 0.46146435
+[12:36:08] INFO: 1700742468_chtbt_model_10_64_1_1_100.json  TRAIN ACC: 0.782
+[12:36:54] INFO: 1700742468_chtbt_model_10_64_1_1_100.json TRAIN LOSS: 0.43286836
+[12:36:54] INFO: 1700742468_chtbt_model_10_64_1_1_100.json  TRAIN ACC: 0.8012
+[12:37:39] INFO: 1700742468_chtbt_model_10_64_1_1_100.json TRAIN LOSS: 0.42614228
+[12:37:39] INFO: 1700742468_chtbt_model_10_64_1_1_100.json  TRAIN ACC: 0.8046
+[12:38:24] INFO: 1700742468_chtbt_model_10_64_1_1_100.json TRAIN LOSS: 0.40125856
+[12:38:24] INFO: 1700742468_chtbt_model_10_64_1_1_100.json  TRAIN ACC: 0.8182
+[12:39:07] INFO: 1700742468_chtbt_model_10_64_1_1_100.json TRAIN LOSS: 0.38779518
+[12:39:07] INFO: 1700742468_chtbt_model_10_64_1_1_100.json  TRAIN ACC: 0.824
+[12:39:52] INFO: 1700742468_chtbt_model_10_64_1_1_100.json TRAIN LOSS: 0.39911246
+[12:39:52] INFO: 1700742468_chtbt_model_10_64_1_1_100.json  TRAIN ACC: 0.8198
+[12:40:37] INFO: 1700742468_chtbt_model_10_64_1_1_100.json TRAIN LOSS: 0.3853121
+[12:40:37] INFO: 1700742468_chtbt_model_10_64_1_1_100.json  TRAIN ACC: 0.8268
+[12:41:20] INFO: 1700742468_chtbt_model_10_64_1_1_100.json TRAIN LOSS: 0.37763688
+[12:41:20] INFO: 1700742468_chtbt_model_10_64_1_1_100.json  TRAIN ACC: 0.8316
+[12:41:22] INFO: Author counts: [998, 1002]
+[12:41:22] INFO: 1700742468_chtbt_model_10_64_1_1_100.json TEST LOSS: 0.38255683
+[12:41:22] INFO: 1700742468_chtbt_model_10_64_1_1_100.json  TEST ACC: 0.8365
+[12:41:32] INFO: Saved model to 1700742468_chtbt_model_10_64_1_1_100.json
+[12:42:16] INFO: 1700742468_chtbt_model_10_64_1_1_100.json TRAIN LOSS: 0.38469294
+[12:42:16] INFO: 1700742468_chtbt_model_10_64_1_1_100.json  TRAIN ACC: 0.8276
+[12:43:05] INFO: 1700742468_chtbt_model_10_64_1_1_100.json TRAIN LOSS: 0.36863196
+[12:43:05] INFO: 1700742468_chtbt_model_10_64_1_1_100.json  TRAIN ACC: 0.839
+[12:43:53] INFO: 1700742468_chtbt_model_10_64_1_1_100.json TRAIN LOSS: 0.36847416
+[12:43:53] INFO: 1700742468_chtbt_model_10_64_1_1_100.json  TRAIN ACC: 0.834
+[12:44:41] INFO: 1700742468_chtbt_model_10_64_1_1_100.json TRAIN LOSS: 0.3643397
+[12:44:41] INFO: 1700742468_chtbt_model_10_64_1_1_100.json  TRAIN ACC: 0.8368
+[12:45:31] INFO: 1700742468_chtbt_model_10_64_1_1_100.json TRAIN LOSS: 0.35922796
+[12:45:31] INFO: 1700742468_chtbt_model_10_64_1_1_100.json  TRAIN ACC: 0.838
+[12:46:22] INFO: 1700742468_chtbt_model_10_64_1_1_100.json TRAIN LOSS: 0.36331758
+[12:46:22] INFO: 1700742468_chtbt_model_10_64_1_1_100.json  TRAIN ACC: 0.8466
+[12:47:12] INFO: 1700742468_chtbt_model_10_64_1_1_100.json TRAIN LOSS: 0.3550556
+[12:47:12] INFO: 1700742468_chtbt_model_10_64_1_1_100.json  TRAIN ACC: 0.8458
+[12:48:02] INFO: 1700742468_chtbt_model_10_64_1_1_100.json TRAIN LOSS: 0.3686333
+[12:48:02] INFO: 1700742468_chtbt_model_10_64_1_1_100.json  TRAIN ACC: 0.8374
+[12:48:52] INFO: 1700742468_chtbt_model_10_64_1_1_100.json TRAIN LOSS: 0.3432743
+[12:48:52] INFO: 1700742468_chtbt_model_10_64_1_1_100.json  TRAIN ACC: 0.8534
+[12:49:43] INFO: 1700742468_chtbt_model_10_64_1_1_100.json TRAIN LOSS: 0.34494632
+[12:49:43] INFO: 1700742468_chtbt_model_10_64_1_1_100.json  TRAIN ACC: 0.854
+[12:49:45] INFO: Author counts: [998, 1002]
+[12:49:45] INFO: 1700742468_chtbt_model_10_64_1_1_100.json TEST LOSS: 0.3754972
+[12:49:45] INFO: 1700742468_chtbt_model_10_64_1_1_100.json  TEST ACC: 0.835
+[12:49:56] INFO: Saved model to 1700742468_chtbt_model_10_64_1_1_100.json
