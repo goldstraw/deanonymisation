@@ -4,7 +4,9 @@ This repository contains my Rust implementations of a transformer built from scr
 
 The transformer is configured to be trained to de-anonymise text messages. The dataset used to train the transformer is the [Chatbot Arena Conversations dataset](https://huggingface.co/datasets/lmsys/chatbot_arena_conversations). The transformer is trained to predict whether the given message is from a real user or a chatbot.
 
-My pre-trained transformer model is available [here](https://github.com/goldstraw/deanonymisation/blob/main/1700742468_chtbt_model_10_64_1_1_100.json). The embeddings used to train the transformer are available [here](https://github.com/goldstraw/deanonymisation/blob/main/chatbot_arena_embeddings.json).
+My pre-trained transformer model is available [here](https://github.com/goldstraw/deanonymisation/blob/main/1700742468_chtbt_model_10_64_1_1_100.json), and achieves a test accuracy of 0.835. The embeddings used to train the transformer are available [here](https://github.com/goldstraw/deanonymisation/blob/main/chatbot_arena_embeddings.json).
+
+I have also trained the same model to de-anonymise messages from my personal Discord server (which contains messages from eight real users), and achieved a test accuracy of 0.243. This model will not be made available, as it contains personal messages.
 
 ## Usage
 
